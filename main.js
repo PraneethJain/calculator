@@ -48,6 +48,12 @@ buttons.forEach(button => {
         }
         output.textContent = input;
         console.log(num1);
+
+        if (input2==='') {
+            equalsButton.style.pointerEvents = 'none';
+        } else {
+            equalsButton.style.pointerEvents = 'auto';
+        }
     })
 })
 
