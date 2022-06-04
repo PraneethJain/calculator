@@ -50,6 +50,13 @@ body {
     margin: 15px 5px;
 }
 
+.row > div:hover {
+    background-color: #044464;    
+}
+.row > div:active {
+    background-color: #021a25;
+}
+
 #clear {
     background-color: rgb(216, 68, 68);
 }
