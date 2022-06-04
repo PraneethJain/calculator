@@ -1,4 +1,46 @@
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: #8ECAE6;
-    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #219EBC;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.output {
+    background-color: #8ECAE6;
+    width: 90%;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: x-large;
+    margin: 15px;
+}
+
+.row {
+    display: flex;
+}
+
+.row > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #023047;
+    color: #FFB703;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    margin: 15px 5px;
+}
+
+#clear {
+    background-color: rgb(216, 68, 68);
 }
