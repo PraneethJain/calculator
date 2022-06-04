@@ -48,6 +48,7 @@ body {
     width: 100px;
     height: 100px;
     margin: 15px 5px;
+    transition-duration: 100ms;
 }
 
 .row > div:hover {
