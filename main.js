@@ -19,9 +19,10 @@ function operate(operator, a, b) {
 let displayValue = '';
 const output = document.querySelector('.output')
 
-const numButtons = document.querySelectorAll('.num');
-numButtons.forEach(button => {
+const Buttons = document.querySelectorAll('.btn');
+Buttons.forEach(button => {
     button.addEventListener('click', e=> {
+        if (displayValue === '0') displayValue = '';
         displayValue += e.target.id;
         output.textContent = displayValue;
     })
