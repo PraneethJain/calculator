@@ -15,3 +15,20 @@ function operate(operator, a, b) {
             return divide(a,b);
     }
 }
+
+let displayValue = '';
+const output = document.querySelector('.output')
+
+const numButtons = document.querySelectorAll('.num');
+numButtons.forEach(button => {
+    button.addEventListener('click', e=> {
+        displayValue += e.target.id;
+        output.textContent = displayValue;
+    })
+})
+
+const clearButton = document.querySelector('#clear')
+clearButton.addEventListener('click', e=> {
+    displayValue = '0';
+    output.textContent = displayValue;
+})

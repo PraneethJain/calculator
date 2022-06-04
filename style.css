@@ -24,10 +24,12 @@ body {
 
 .output {
     background-color: #8ECAE6;
+    text-align: right;
     width: 90%;
     padding: 15px;
+    padding-right: 30px;
     border-radius: 15px;
-    font-size: x-large;
+    font-size: xx-large;
     margin: 15px;
 }
 
