@@ -37,7 +37,6 @@ buttons.forEach(button => {
             input += currentOperator;
         }
         if (!e.target.classList.contains('operator')) {
-            output.textContent = num1;
             input += e.target.id;
             if (num1 !== null) {
                 input2 += e.target.id;
