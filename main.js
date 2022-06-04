@@ -37,7 +37,11 @@ buttons.forEach(button => {
             input += currentOperator;
         }
         if (!e.target.classList.contains('operator')) {
-            input += e.target.id;
+            if (input!=='0') {
+                input += e.target.id;
+            } else if (input ==='0') {
+                input = e.target.id;
+            }
             if (num1 !== null) {
                 input2 += e.target.id;
             }
