@@ -2,8 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #8ECAE6;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+.header {
+    font-size: 65px;
+    font-weight: bolder;
 }
 
 .calculator {
